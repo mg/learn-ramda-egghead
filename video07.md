@@ -9,7 +9,7 @@
 
 - ``lensProp(name)``: Shorthand for ``lens(prop(NAME), assoc(NAME))``.
 
-- ``over(lens)``: Run a function over an object with the focus of the lens.
+- ``over(lens, fn)``: Run a function over an object with the focus of the lens.
 
 ```js
 import { lens, prop, assoc, lensProp, view, set, over, toUpper } from 'ramda'
